@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 The training data contains 5043 movie posts and their corresponding Chinese title which are collected by [Movie-Title-Post](https://huggingface.co/datasets/snzhang/Movie-Title-Post)
 
-## Finetune or train your model
+## Finetune or train your own model
 
 You can run this script to finetune the [FileTitle-Beit-GPT2](https://huggingface.co/snzhang/FileTitle-Beit-GPT2).
 
