@@ -10,7 +10,7 @@ Run this to download the script.
 
 ```markdown
 git clone https://github.com/h7nian/FilmTitle-Beit-GPT2.git
-cd GPT2-Poem-Small
+cd FilmTitle-Beit-GPT2
 pip install -r requirements.txt 
 ```
 
