@@ -2,7 +2,7 @@
 
 ## Model Description
 
-The model is used to generate the Chinese title of a random movie post. It is based on the [BEiT](https://huggingface.co/microsoft/beit-base-patch16-224-pt22k-ft22k) and [GPT2](https://huggingface.co/IDEA-CCNL/Wenzhong-GPT2-110M). You can get the model in [FileTitle-Beit-GPT2](https://huggingface.co/snzhang/FileTitle-Beit-GPT2)
+The model is used to generate the Chinese title of a random movie post. It is based on the [BEiT](https://huggingface.co/microsoft/beit-base-patch16-224-pt22k-ft22k) and [GPT2](https://huggingface.co/IDEA-CCNL/Wenzhong-GPT2-110M). You can get the model in [FilmTitle-Beit-GPT2](https://huggingface.co/snzhang/FilmTitle-Beit-GPT2)
 
 ## Download script and prepare the environment
 
@@ -20,7 +20,7 @@ The training data contains 5043 movie posts and their corresponding Chinese titl
 
 ## Finetune or train your own model
 
-You can run this script to finetune the [FileTitle-Beit-GPT2](https://huggingface.co/snzhang/FileTitle-Beit-GPT2).
+You can run this script to finetune the [FilmTitle-Beit-GPT2](https://huggingface.co/snzhang/FilmTitle-Beit-GPT2).
 
 ```markdown
 deepspeed --num_gpus=1 train.py \
