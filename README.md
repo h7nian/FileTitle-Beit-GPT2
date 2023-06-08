@@ -9,7 +9,7 @@ The model is used to generate the Chinese title of a random movie post. It is ba
 Run this to download the script.
 
 ```markdown
-git clone https://github.com/h7nian/GPT2-Poem-Small.git
+git clone https://github.com/h7nian/FilmTitle-Beit-GPT2.git
 cd GPT2-Poem-Small
 pip install -r requirements.txt 
 ```
@@ -56,3 +56,7 @@ deepspeed --num_gpus=1 train.py \
 ```
 
 - There are more parameters you can add to it. More details in [HuggingFace Deepspeed Intergration](https://huggingface.co/docs/transformers/main_classes/deepspeed)
+
+## Generation
+
+You can use the generation.py to generate the title of a movie post. 
